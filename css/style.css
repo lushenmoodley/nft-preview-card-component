@@ -39,7 +39,6 @@ body{
     font-size: 18px;
     line-height: 42px;
     color: #FFFFFF;
-    display: block;
 }
 
 #equilibrium-content{
@@ -59,13 +58,35 @@ body{
 .image-container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
-}
-
+    margin-top: 14px;
+    margin-bottom: 14px;
+}  
 
 #clock{
     color: #8BACD9;
     margin-left: 2px; 
     font-weight: 400;
     font-size: 16px; 
+}
+
+hr{
+    margin-top: 12px;
+    border: 1px solid #2E405A;
+    margin-bottom: 0px;
+}
+
+.oval-image{
+    position: relative;
+    top: 10px;
+}
+
+.author-content{
+    padding-left: 15px;
+    color: #8BACD9;
+}
+
+.author-name{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
 }
