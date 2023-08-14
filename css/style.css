@@ -20,24 +20,38 @@
     padding: 10px
 }
 
-img{
+.profile-image{
     position: relative;
     width: 100%;
 }
 
-span {
-    display: block;
-}
 
 body{
     background-color: #0D192C;
+    font-family: 'Outfit';
+    font-style: normal;
 }
 
 #Equilibrium{
     font-family: 'Outfit';
     font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 300;
+    font-size: 18px;
     line-height: 42px;
     color: #FFFFFF;
+    display: block;
+}
+
+#equilibrium-content{
+color: #8BACD9;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#combined-shape{
+    color: #00FFF8;
+    font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
 }
