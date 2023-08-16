@@ -34,10 +34,20 @@
     transition: .5s ease;
     background: #00FFF8;
     border-radius: 10px;
+    display: flex;
   }
 
+  .shape-image{
+    display: block;
+    margin:auto;
+  }
+  
   .image-container:hover .overlay {
     opacity: 0.5;
+  }
+
+  .center {
+    text-align: center;
   }
   
   .text {
