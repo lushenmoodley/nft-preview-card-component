@@ -74,10 +74,15 @@ body{
     color: #FFFFFF;
 }
 
+
 #equilibrium-content{
     color: #8BACD9;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#Equilibrium:hover{
+    color:#00FFF8; 
 }
 
 #combined-shape{
@@ -124,3 +129,6 @@ hr{
     font-size: 16px;
 }
 
+.author-name:hover{
+    color:#00FFF8;
+}
